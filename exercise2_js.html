@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice Exercise One</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise2_js.js" defer></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          JavaScript Practice Exercise Two
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          Fill in the blank for declarying variable <code> score </code>in
+          backticks <span class="border rounded bg-light p-2"> (`)</span>
+          <hr />
+          <p class="border rounded bg-light p-2">
+            let content = <code>`</code> The score of winning team is:
+            <input type="text" id="fillOne" maxlength="1" size="1" />
+            { score
+            <input type="text" id="fillOne1" maxlength="1" size="1" />
+            <code>`</code>
+          </p>
+          <code>console.log( content )</code>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <!-- Question 2 Starts -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          Fill in the blank to get <code>square</code> of <code>a</code>.
+          <hr />
+          <pre>
+          let a = 5; 
+          let b = 2; 
+          var mySquare = a <input type="text" id="fillTwo" maxlength="2" size="2" /> b</pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          Fill in the blank to get <code>remainder</code> of <code>a</code> and
+          <code> b</code>.
+          <hr />
+          <pre>
+          let a = 5; 
+          let b = 2; 
+          var remainder = a <input type="text" id="fillThr" maxlength="1" size="1" /> b</pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          Fill in the blanks to show following output
+          <p class="border rounded bg-light p-2">
+            <code>Output:</code> The sum of two values is : 15
+          </p>
+          <hr />
+          <pre>
+            x = 12;
+            y = 3;
+            z = x + y
+            console.log("<input type="text" id="fillFou" maxlength="26" size="26" />",<input type="text" id="fillFou1" maxlength="1" size="1" />)
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          What will be the output of following code if user selects
+          <code>2</code> in <code>prompt</code> box
+          <hr />
+          <pre class="border rounded bg-light p-2">
+            x = prompt ("Enter a number between 1 to 10")
+            
+            if (x === 2) {
+              console.log("Correct")
+            } else {
+              console.log("Wrong")
+            }
+          </pre>
+          <hr />
+          <code>Output:</code
+          ><input type="text" id="fillFiv" maxlength="11" size="11" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFiv()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+      <!-- Question Six Starts -->
+      <div id="statSix" class="row alert alert-info">
+        <div class="col-lg-2">Question 6 :</div>
+        <div class="col-lg-8">
+          Fill in missing property & attribute to link JavaScript
+          <code>script.js</code> file <code>externally</code> in
+          <code>head</code>
+          <hr />
+          &lt;script <input type="text" id="fillSix" maxlength="3" size="3" /> =
+          "script.js"
+          <input type="text" id="fillSix1" maxlength="5" size="5" /> &gt;
+          &lt;/script&gt;
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSix()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
+      <!-- Question Seven Starts -->
+      <div id="statSev" class="row alert alert-info">
+        <div class="col-lg-2">Question 7 :</div>
+        <div class="col-lg-8">
+          Fill in the blank to access following element in html
+          <p class="border rounded bg-light p-2">
+            <code
+              >&lt;p id='para'&gt; I am the one you are supposed to fetch
+              &lt;/p&gt;</code
+            >
+          </p>
+          <hr />
+          <code class="border rounded bg-light p-2">Output : </code>
+          document.
+          <input id="fillSev" type="text" maxlength="14" size="14" />('para')
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSev()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Seven Ends -->
+      <!-- Question Eight Starts -->
+      <div id="statEig" class="row alert alert-info">
+        <div class="col-lg-2">Question 8 :</div>
+        <div class="col-lg-8">
+          Fill in the blank to access following element in html
+          <p class="border rounded bg-light p-2">
+            <code
+              >&lt;p class='some'&gt; I am the one you are supposed to fetch
+              &lt;/p&gt;</code
+            >
+          </p>
+          <hr />
+          <code class="border rounded bg-light p-2">Output : </code>
+          document.
+          <input id="fillEig" type="text" maxlength="13" size="13" />('.some')
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionEig()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Eight Ends -->
+      <!-- Question Nine Starts -->
+      <div id="statNin" class="row alert alert-info">
+        <div class="col-lg-2">Question 9 :</div>
+        <div class="col-lg-8">
+          Fill in the blank to access following element in html
+          <p class="border rounded bg-light p-2">
+            <code
+              >&lt;p id='para' class='some'&gt; I am the one you are supposed to
+              fetch &lt;/p&gt;</code
+            >
+          </p>
+          <hr />
+          <code class="border rounded bg-light p-2">Output : </code>
+          document.
+          <input id="fillNin" type="text" maxlength="14" size="14" />('p')
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionNin()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+      <!-- Question Ten Starts -->
+      <div id="statTen" class="row alert alert-info">
+        <div class="col-lg-2">Question 10 :</div>
+        <div class="col-lg-8">
+          What type of data is stored in variable
+          <code>myAge</code> if the user enters <code>20</code> in prompt box
+          <hr />
+          <div
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            <p>let myAge = prompt("Please enter your age");</p>
+            <p>console.log(<code>typeof</code> myAge);</p>
+          </div>
+          <hr />
+          <code class="border rounded bg-light p-2">Output : </code>
+          <input type="text" id="fillTen" maxlength="6" size="6" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTen()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+    </div>
+  </body>
+</html>
