@@ -15,3 +15,7 @@ In this repository, I will keeps codes of the exercises designed for students at
 <div>Exercise 1: 
   <a href="https://abrartunio.github.io/time-exercises/exercise1_js.html" target="_blank"> Variables and Data Types </a>
 </div>
+
+<div>Exercise 2: 
+  <a href="https://abrartunio.github.io/time-exercises/exercise2_js.html" target="_blank"> Arithmetic Operators and Accessing Elements </a>
+</div>
