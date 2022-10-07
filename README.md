@@ -1,4 +1,5 @@
-# Practice Exercises HTML,CSS,JS,PHP,Python
+# Practice Exercises
+<h2>HTML, CSS, JS, PHP, Python, C# and Java</h2>
 In this repository, I will keeps codes of the exercises designed for students at The Institute of Management &amp; Entrepreneurship
 
 <h3>HTML Exercises</h3>
