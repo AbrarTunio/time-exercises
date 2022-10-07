@@ -6,6 +6,10 @@ document.querySelectorAll("div.row").forEach((element) => {
   element.classList.add("class", "text-dark");
 });
 
+document.querySelectorAll("button.btn").forEach((element) => {
+  element.classList.add("class", "mt-2");
+});
+
 fillOne = document.querySelector("#fillOne");
 fillOne1 = document.querySelector("#fillOne1");
 statOne = document.querySelector("#statOne");
