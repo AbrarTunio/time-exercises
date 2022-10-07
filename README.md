@@ -13,5 +13,5 @@ In this repository, I will keeps codes of the exercises designed for students at
 
 <h3>JavaScript Exercises</h3>
 <div>Exercise 1: 
-  <a href="https://abrartunio.github.io/time-exercises/exercise1_js.html" target="_blank"> Anchor and Lists </a>
+  <a href="https://abrartunio.github.io/time-exercises/exercise1_js.html" target="_blank"> Variables and Data Types </a>
 </div>
