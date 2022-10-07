@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Exercise Two</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise2.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          Practice Exercise Two
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-2">Question 1 :</div>
+        <div class="col-8">
+          Fill in the attribute for anchor tag
+          <hr />
+          &lt;a
+          <input type="text" id="fillOne" maxlength="4" size="4" /> =
+          'page2.html' &gt;click here&lt;/a&gt;
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-2">Question 2 :</div>
+        <div class="col-8">
+          Fill correctly for unordered list
+          <hr />
+          &lt;ul&gt;
+          <pre>
+            <input type="text" id="fillTwo1" maxlength="4" size="4" /> I will be displayed in bullets <input type="text" id="fillTwo2" maxlength="5" size="5" />
+          </pre>
+          <input type="text" id="fillTwo" maxlength="5" size="5" />
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-2">Question 3 :</div>
+        <div class="col-8">
+          How will you make a link to open in new tab
+          <hr />
+          &lt;a href="newpage.html" target= "
+          <input type="text" id="fillThr" maxlength="6" size="6" /> "&gt; Click
+          Here &lt;/a&gt;
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-2">Question 4 :</div>
+        <div class="col-8">
+          Create an ordered list
+          <hr />
+          <pre>
+            <input type="text" id="fillFou" maxlength="4" size="4">
+                &lt;li&gt; Milk &lt;/li&gt;
+                &lt;li&gt; Vegitables &lt;/li&gt;
+                &lt;li&gt; Meat &lt;/li&gt;
+            <input type="text" id="fillFour" maxlength="5" size="5">
+          </pre>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-2">Question 4 :</div>
+        <div class="col-8">
+          Create an un-ordered or bulleted list
+          <hr />
+          <pre>
+            <input type="text" id="fillFiv" maxlength="4" size="4">
+                &lt;li&gt; Milk &lt;/li&gt;
+                &lt;li&gt; Vegitables &lt;/li&gt;
+                &lt;li&gt; Meat &lt;/li&gt;
+            <input type="text" id="fillFive" maxlength="5" size="5">
+          </pre>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+      <!-- Question Six Starts -->
+      <div id="statSix" class="row alert alert-info">
+        <div class="col-2">Question 6 :</div>
+        <div class="col-8">
+          For Nested Unordered List within ordered list
+          <hr />
+          <pre>
+             &lt;ol&gt;
+                 &lt;li&gt;Meat
+                    &lt;ul&gt;
+                        &lt;li&gt;Chicken&lt;/li&gt;
+                        &lt;li&gt;Beef&lt;/li&gt;
+                        &lt;li&gt;Mutton&lt;/li&gt;
+                        &lt;li&gt;Fish&lt;/li&gt;
+                    <input type="text" id="fillSix" maxlength="5" size="5" />
+                 <input type="text" id="fillSix1" maxlength="5" size="5" />   
+                 &lt;li>Eggs&lt;/li&gt;
+             &lt;/ol&gt;  
+          </pre>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionSix()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
+      <!-- Question Seven Starts -->
+      <div id="statSev" class="row alert alert-info">
+        <div class="col-2">Question 7 :</div>
+        <div class="col-8">
+          Create a descriptive list
+          <hr />
+          <pre>
+          <input type="text" id="fillSev" maxlength="4" size="4" />
+              &lt;dt&gt; Coffee &lt;/dt&gt;
+                &lt;dd&gt; Black and Hot &lt;/dd&gt;
+              &lt;dt&gt; Milk &lt;/dt&gt;
+                &lt;dd&gt; White and Sweet &lt;/dd&gt;
+          &lt;/dl&gt;
+          </pre>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionSev()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Seven Ends -->
+      <!-- Question Eight Starts -->
+      <div id="statEig" class="row alert alert-info">
+        <div class="col-2">Question 8 :</div>
+        <div class="col-8">
+          Fill in the blank for descriptive list
+          <hr />
+          <pre>
+            &lt;dl&gt;
+              <input type="text" id="fillEig" maxlength="4" size="4" /> Coffee &lt;/dt&gt;
+                &lt;dd&gt; Black and Hot <input type="text" id="fillEight" maxlength="5" size="5" />
+            &lt;dl&gt;  
+          </pre>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionEig()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Eight Ends -->
+      <!-- Question Nine Starts -->
+      <div id="statNin" class="row alert alert-info">
+        <div class="col-2">Question 9 :</div>
+        <div class="col-8">
+          Fill the blanks properly for bulleted list
+          <hr />
+          &lt;ul&gt; &lt;li style = "color: red"&gt; Abrar Hussain
+          <input type="text" id="fillNin" maxlength="7" size="7" />
+          <input type="text" id="fillNine" maxlength="4" size="4" />
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionNin()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+      <!-- Question Ten Starts -->
+      <div id="statTen" class="row alert alert-info">
+        <div class="col-2">Question 10 :</div>
+        <div class="col-8">
+          How many types of lists are there in HTML?
+          <hr />
+          <input type="text" id="fillTen" maxlength="1" size="1" />
+        </div>
+        <div class="col-2">
+          <button class="btn btn-info" onclick="questionTen()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+    </div>
+  </body>
+</html>
