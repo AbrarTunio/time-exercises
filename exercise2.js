@@ -66,7 +66,7 @@ function questionFou() {
 }
 
 fillFiv = document.querySelector("#fillFiv");
-fillFiv = document.querySelector("#fillFive");
+fillFive = document.querySelector("#fillFive");
 statFiv = document.querySelector("#statFiv");
 
 function questionFiv() {
