@@ -19,3 +19,7 @@ In this repository, I will keeps codes of the exercises designed for students at
 <div>Exercise 2: 
   <a href="https://abrartunio.github.io/time-exercises/exercise2_js.html" target="_blank"> Arithmetic Operators and Accessing Elements </a>
 </div>
+
+<div>Exercise 3: 
+  <a href="https://abrartunio.github.io/time-exercises/exercise3_js.html" target="_blank"> Comparison Operators </a>
+</div>
