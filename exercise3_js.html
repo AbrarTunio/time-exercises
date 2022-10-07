@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice Exercise Three</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise3_js.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          JavaScript Practice Exercise Three
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = 15; <br />
+            let y = 20; <br />
+            console.log( x != y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillOne" maxlength="4" size="4" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <!-- Question 2 Starts -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>9</code> <br />
+            let y = <code>'9'</code> <br />
+            console.log( x === y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillTwo" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>37</code> <br />
+            let y = <code>'37'</code> <br />
+            console.log( x == y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillThr" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>37</code> <br />
+            let y = <code>'37'</code> <br />
+            let y = parseInt(y) <br />
+            console.log( x === y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillFou" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>99</code> <br />
+            let y = <code>99</code> <br />
+            console.log( x > y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillFiv" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFiv()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+      <!-- Question Six Starts -->
+      <div id="statSix" class="row alert alert-info">
+        <div class="col-lg-2">Question 6 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>102</code> <br />
+            let y = <code>102</code> <br />
+            console.log( x >= y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillSix" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSix()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
+      <!-- Question Seven Starts -->
+      <div id="statSev" class="row alert alert-info">
+        <div class="col-lg-2">Question 7 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>67</code> <br />
+            let y = <code>99</code> <br />
+            console.log( x &lt; y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillSev" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSev()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Seven Ends -->
+      <!-- Question Eight Starts -->
+      <div id="statEig" class="row alert alert-info">
+        <div class="col-lg-2">Question 8 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>67</code> <br />
+            let y = <code>99</code> <br />
+            let x = y <br />
+            console.log( x &lt; y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillEig" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionEig()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Eight Ends -->
+      <!-- Question Nine Starts -->
+      <div id="statNin" class="row alert alert-info">
+        <div class="col-lg-2">Question 9 :</div>
+        <div class="col-lg-8">
+          What will be the output of following comparison operator?
+          <hr />
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let x = <code>67</code> <br />
+            let y = <code>99</code> <br />
+            let x = y <br />
+            console.log( x &lt;= y )
+          </p>
+          <code>Output: </code>
+          <input type="text" id="fillNin" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionNin()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+      <!-- Question Ten Starts -->
+      <div id="statTen" class="row alert alert-info">
+        <div class="col-lg-2">Question 10 :</div>
+        <div class="col-lg-8">
+          Through user input box, user stores <code>20</code> in variable
+          <code>myAge</code>. What will be output of following code?
+          <hr />
+          <div
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            <p>let myAge = prompt("Please enter your age");</p>
+            <p>let yourAge = 20</p>
+            <p>console.log(<code>myAge === yourAge</code>);</p>
+          </div>
+          <hr />
+          <code class="border rounded bg-light p-2">Output : </code>
+          <input type="text" id="fillTen" maxlength="5" size="5" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTen()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+    </div>
+  </body>
+</html>
