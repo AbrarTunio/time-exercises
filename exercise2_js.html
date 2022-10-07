@@ -39,16 +39,24 @@
         <div class="col-lg-2">Question 1 :</div>
         <div class="col-lg-8">
           Fill in the blank for declarying variable <code> score </code>in
-          backticks <span class="border rounded bg-light p-2"> (`)</span>
+          backticks
+          <span class="border rounded bg-light p-2"> (`)</span>
           <hr />
-          <p class="border rounded bg-light p-2">
+          <p
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let score = 50; <br />
             let content = <code>`</code> The score of winning team is:
             <input type="text" id="fillOne" maxlength="1" size="1" />
             { score
             <input type="text" id="fillOne1" maxlength="1" size="1" />
-            <code>`</code>
+            <code>`</code><br />
+            console.log(content);
           </p>
-          <code>console.log( content )</code>
+          <code class="border rounded bg-light p-2"
+            >Expected Output => The score of winning team is: 50</code
+          >
         </div>
         <div class="col-lg-2">
           <button class="btn btn-info" onclick="questionOne()">
@@ -61,7 +69,8 @@
       <div id="statTwo" class="row alert alert-info">
         <div class="col-lg-2">Question 2 :</div>
         <div class="col-lg-8">
-          Fill in the blank to get <code>square</code> of <code>a</code>.
+          Fill in the blank with arithmetic operator to get
+          <code>square</code> of <code>a</code>.
           <hr />
           <pre>
           let a = 5; 
@@ -79,8 +88,9 @@
       <div id="statThr" class="row alert alert-info">
         <div class="col-lg-2">Question 3 :</div>
         <div class="col-lg-8">
-          Fill in the blank to get <code>remainder</code> of <code>a</code> and
-          <code> b</code>.
+          Fill in the blank with arithmetic operator to store
+          <code>remainder</code> of <code>a</code> and <code> b</code> in
+          variable <code>remainder</code>.
           <hr />
           <pre>
           let a = 5; 
