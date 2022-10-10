@@ -23,3 +23,7 @@ In this repository, I will keeps codes of the exercises designed for students at
 <div>Exercise 3: 
   <a href="https://abrartunio.github.io/time-exercises/exercise3_js.html" target="_blank"> Comparison Operators </a>
 </div>
+
+<div>Exercise 4: 
+  <a href="https://abrartunio.github.io/time-exercises/exercise4_js.html" target="_blank"> Write Basic Programs Part 1 </a>
+</div>
