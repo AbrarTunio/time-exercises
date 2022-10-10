@@ -11,6 +11,10 @@ In this repository, I will keeps codes of the exercises designed for students at
   <a href="https://abrartunio.github.io/time-exercises/exercise2.html" target="_blank"> Anchor and Lists </a>
 </div>
 
+<div>Exercise 3: 
+  <a href="https://abrartunio.github.io/time-exercises/exercise3.html" target="_blank"> Media (Images) </a>
+</div>
+
 <h3>JavaScript Exercises</h3>
 <div>Exercise 1: 
   <a href="https://abrartunio.github.io/time-exercises/exercise1_js.html" target="_blank"> Variables and Data Types </a>
