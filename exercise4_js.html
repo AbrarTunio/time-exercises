@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice Exercise Four</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <style>
+      .show1,
+      .show2,
+      .show3,
+      .show4,
+      .show5,
+      .show6,
+      .show7,
+      .show8,
+      .show9,
+      .show10 {
+        display: none;
+      }
+      /* internal JS and CSS is done only. Do not look for JS or CSS file*/
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          JavaScript Practice Exercise Four
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          Create a variable <code>myName</code> and assign it value
+          <code>TechTIME</code> use a built-in function to show the output in
+          <code>alert</code> box.
+          <hr />
+          <p
+            class="show1 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let myName = "TechTIME"; <br />
+            alert(myName );
+          </p>
+        </div>
+        <div class="col-lg-2">
+          <button
+            class="btn btn-info"
+            onclick="document.querySelector('.show1').style.display = 'block'"
+          >
+            Show Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <!-- Question 2 Starts -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          Create a variable named <code>score</code>, assign value
+          <code>90</code> to it and use built-in function to display output
+          <code>You have scored 90% in exams</code> in console.
+          <hr />
+          <p
+            class="show2 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let score = <code>90</code> <br />
+            console.log( 'You have scored',<code>score</code>+ '% in exams' )
+          </p>
+        </div>
+        <div class="col-lg-2">
+          <button
+            class="btn btn-info"
+            onclick="document.querySelector('.show2').style.display='block'"
+          >
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          Create a variable <code>name</code> and assign it value
+          <code>Iftikhar</code>, another variable <code>surname</code> and
+          assign it value <code>Umrani</code> and a variable of
+          <code>age</code> and assign value <code>55</code>. Show following
+          output to console.
+          <p><code>My friend Iftikhar Umrani is 55 years old </code></p>
+          <hr />
+          <p
+            class="show3 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let name = 'Iftikhar' <br />
+            let surname = 'Umrani' <br />
+            let age = 55 <br />
+            console.log('My friend',name,surname,'is',age,'years old')
+          </p>
+        </div>
+        <div class="col-lg-2">
+          <button
+            class="btn btn-info"
+            onclick="document.querySelector('.show3').style.display = 'block'"
+          >
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          Create a variable named <code>channel</code> and store value
+          <code>techTIME</code> . Create another variable named
+          <code>mylist = ['Chicken','Milk','Vegitable','Flour']</code>
+          use a built-in function/property to show datatype of both variables in
+          console.
+          <hr />
+          <p
+            class="show4 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let channel = 'TechTIME'; <br />
+            let mylist = ['Chicken','Milk','Vegitable','Flour']; <br />
+            console.log( <code>typeof</code> channel ); <br />
+            console.log( <code>typeof</code> mylist );
+          </p>
+          <code>Output:</code>
+          <pre>
+            'string'
+            'array'
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button
+            class="btn btn-info"
+            onclick="document.querySelector('.show4').style.display = 'block'"
+          >
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          Create a program that asks the user to input ages of
+          <code>badal, mateen and shahnawaz</code>. If user inputs age of Badal
+          as <code>19</code> and Mateen and Shahnawaz as <code>18</code>. Show following output using
+          comparison operators.
+          <p>
+            <ul>
+              <li>Mateen is younger than Badal</li>
+              <li>Badal is older than Mateen</li>
+              <li>Mateen and Shahnawaz are same age</li>
+            </ul>
+          </p>
+          <hr />
+          <p
+            class="show5 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let ageBadal = <code>prompt('Enter the age of Badal')</code> <br />
+            let ageMateen = <code>prompt('Enter the age of Mateen')</code>
+            <br />
+            let ageShahnawaz =
+            <code>prompt('Enter the age of Shahnawaz')</code> <br /><br>
+            
+            if (ageMateen &lt; ageBadal ) { <br>
+              &nbsp;&nbsp;&nbsp;<code>console.log('Mateen is younger than Badal')</code> <br>  
+              } <br>
+            if (ageBadal > ageMateen) { <br>
+            &nbsp;&nbsp;&nbsp;<code>console.log('Badal is older than Mateen')</code> <br>  
+            } <br>
+            if (ageShahnawaz == ageMateen) { <br>
+              &nbsp;&nbsp;&nbsp;<code>console.log('Mateen and Shahnawaz are same age')</code> <br>  
+              } <br>
+          </p>
+          </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="document.querySelector('.show5').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+      <!-- Question Six Starts -->
+      <div id="statSix" class="row alert alert-info">
+        <div class="col-lg-2">Question 6 :</div>
+        <div class="col-lg-8">
+          How do you capture the result of a math equation like 
+          <code>42 * 38</code> in JavaScript?
+          and show it in console.
+          <hr />
+          <pre class="show6 border rounded bg-light p-2"
+                  style="font-size: 12px; font-style: italic">
+              Method 1
+                      console.log( 42*38 )
+              Method 2
+                      let x = 42, y=38
+                      console.log( x*y )
+              Method 3
+                      let x = 42, y=38
+                      let <code>ans </code> = x*y
+                      console.log( <code>ans </code> )
+            </pre>
+          </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="document.querySelector('.show6').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
+      <!-- Question Seven Starts -->
+      <div id="statSev" class="row alert alert-info">
+        <div class="col-lg-2">Question 7 :</div>
+        <div class="col-lg-8">
+          Write to program that ask user for his/her name age If name is <code>Muzammil</code>  
+          and age is 18 It should output <code>"Muzammil has started programming"</code>  
+          else if age is greater than 18 then it should output 
+          <code>"Muzammil is a good programmer"</code> otherwise it should output 
+          <code>"Muzammil is newbie"</code>   
+          <hr />
+          <pre
+            class="show7 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let ageMuz = prompt('Enter the of Muzammil');
+
+            if (<mark> ageMuz == 18 </mark>) {
+                  console.log('Muzammil has started programming')
+            } else if (<mark> ageMuz > 18</mark> ) {
+                  console.log('Muzammil is a good programmer')
+            } else {
+              console.log('Muzammil is newbie')
+            }</pre>
+          </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" 
+          onclick="document.querySelector('.show7').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Seven Ends -->
+      <!-- Question Eight Starts -->
+      <div id="statEig" class="row alert alert-info">
+        <div class="col-lg-2">Question 8 :</div>
+        <div class="col-lg-8">
+          If an employee works for <code>8 hours/day regularly and his rate per hour</code> is 200 PKR. For every extra 
+          hour his rate per hour is <code>1.5 times more</code> than regular hour. 
+          What will be his monthly (30 days) salary if he works 1 hour extra every day.
+          <hr />
+          <pre
+            class="show8 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            workHours = prompt('Enter the number of hours employee worked/day');
+            numberDays = prompt('Enter the number of days this month');
+
+            let regualarHours = 8;
+            let regularRate   = 200;
+            
+            regularRatePerDay   = regularHours * regularRate
+            extraHourRatePerDay = (1.5 * regularRate) * ( workHours - regualarHours )
+
+            salary = regularRatePerDay + extraHourRatePerDay;
+
+            console.log(salary);
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" 
+          onclick="document.querySelector('.show8').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Eight Ends -->
+      <!-- Question Nine Starts -->
+      <div id="statNin" class="row alert alert-info">
+        <div class="col-lg-2">Question 9 :</div>
+        <div class="col-lg-8">
+          Write a program to convert tempratures. User should provide inputs in
+          Celcius and Farhanhiet and then outputs after converting C to F and F to C 
+          as below. <br>
+          <code>
+          Fahrenhiet of provided celcius C(value) is : F(value) <br>
+          Celcius of provided Fahrenhiet F(value) is : C(value)</code>
+          <hr />
+          <pre
+            class="show9 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >   
+          let cel = prompt('Enter the value in C');
+          let far = prompt('Enter the value in F')
+
+          newF    = cel * ( 9/5 ) + 32;
+          newC    = ( 5/9 ) * ( far - 32 )
+          
+          console.log(`Fahrenhiet of provided celcius ${cel} is : F(${newF})`)
+          console.log(`Celcius of provided Fahrenhiet ${far} is : F(${newC})`)  
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="document.querySelector('.show9').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+      <!-- Question Ten Starts -->
+      <div id="statTen" class="row alert alert-info">
+        <div class="col-lg-2">Question 10 :</div>
+        <div class="col-lg-8">
+          Create a variable "a" and assign it a value 15
+          Create another variable “b” and assign it a value 20
+          create a variable “formula” assign it the (a + b) whole square
+          print out the value the above equation.
+          <hr />
+          <pre
+            class="show10 border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+            let   a  =  15;
+            let   b  =  20;
+
+            formula  =  (a + b) ** 2
+            
+            console.log(formula);
+          </pre>
+          <hr />
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="document.querySelector('.show10').style.display = 'block';">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Nine Ends -->
+    </div>
+  </body>
+</html>
