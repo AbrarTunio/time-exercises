@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Practice Exercise Three</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise3.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          HTML Practice Exercise Three
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          <code>&lt;img&gt;</code> tag does not have any ending, therefore it is
+          also known as self containing tag (type 'Y' or 'N')
+          <hr />
+          <code>Type (Y/N): </code>
+          <input type="text" id="fillOne" maxlength="1" size="1" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          Fill correctly for &lt;img&gt; tag for attribute of image name or
+          path.
+          <hr />
+          &lt;img <input type="text" id="fillTwo" maxlength="3" size="3" /> =
+          'imagename.png' &gt;
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          <p>Insert the attribute for alternative text in image tag</p>
+          <hr />
+          <pre> &lt;img src='welcome.jpeg' <input type="text" id="fillThr" maxlength="3" size="3" /> = 'Welcome Board at the corner of the road!' &gt;</pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          Fill in the proper attribute for picture tag.
+          <hr />
+          <pre>
+          &lt;picture&gt; 
+            &lt;source media='(max-width:500px)' <input type="text" id="fillFou" maxlength="6" size="6" /> = 'imagename.jpg' &gt; 
+            &lt;source <input type="text" id="fillFour" maxlength="6" size="6" /> = 'imagename.jpg' &gt; 
+            &lt;img src = 'imagename.png' alt='an super cool image of vehicle'&gt; 
+          &lt;/picture&gt;
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          Insert the caption under the picture below.
+          <hr />
+          <pre>
+        &lt;figure&gt;                   
+            &lt;img src = 'imagename.png' alt='an super cool image of vehicle'&gt;
+            <input type="text" id="fillFiv" maxlength="12" size="12" />A cool picture of vehicle<input type="text" id="fillFive" maxlength="13" size="13" />
+        &lt;/figure&gt;
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFiv()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+    </div>
+  </body>
+</html>
