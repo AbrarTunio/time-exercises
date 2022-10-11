@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Practice Exercise Three</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise4.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          HTML Practice Exercise Four
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          How will you add <code>audio</code> inside a browser using HTML?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;audio <input type="text" id="fillOne" maxlength="3" size="3"> = 'myaudio.mp3' controls &gt;
+  
+&lt;/audio&gt;  
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          How will you add controls in <code> &lt;audio&gt; </code> element?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;audio src = 'myaudio.mp3' <input type="text" id="fillTwo" maxlength="8" size="8"> &gt;
+  
+&lt;/audio&gt;  
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          which attribute will be used to play <code>audio</code> for infinite
+          times?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;audio src = 'myaudio.mp3' controls <input type="text" id="fillThr" maxlength="4" size="4"> &gt;
+  
+&lt;/audio&gt;  
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          Which element will be used to add multiple formats of audio for a
+          single audio file.
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;audio src = 'myaudio.mp3' controls &gt;
+          <input type="text" id="fillFou" maxlength="7" size="7"> src = 'myaudio.mp3' type='audio/mp3'  <input type="text" id="fillFour" maxlength="1" size="1">
+          <input type="text" id="fillFour1" maxlength="7" size="7"> src = 'myaudio.ogg' type='audio/ogg'  <input type="text" id="fillFour2" maxlength="1" size="1">
+&lt;/audio&gt;  
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          How will you add video into your website?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+<input type="text" id="fillFiv" maxlength="6" size="6" /> src = 'myvideo.mp4' controls <input type="text" id="fillFive" maxlength="1" size="1" />                   
+<input type="text" id="fillFive1" maxlength="8" size="8" />  
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFiv()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+      <!-- Question Six Starts here -->
+      <div id="statSix" class="row alert alert-info">
+        <div class="col-lg-2">Question 6 :</div>
+        <div class="col-lg-8">
+          Add a video that will play automatically when page is loaded!
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;video src = 'myvideo.mp4' controls <input type="text" id="fillSix" maxlength="8" size="8" /> >                   
+<input type="text" id="fillSix1" maxlength="8" size="8" />  
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSix()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
+      <!-- Question Seven Starts here -->
+      <div id="statSev" class="row alert alert-info">
+        <div class="col-lg-2">Question 7 :</div>
+        <div class="col-lg-8">
+          Fill in the element to insert subtitles in video
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;video src = 'myvideo.mp4' controls >
+        <input type="text" id="fillSev" maxlength="6" size="6" />
+            src = 'mycaption.vtt'
+            kind = 'captions'
+            label = 'English'
+            srclang = 'en'
+        > 
+&lt;/video&gt;
+        </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionSev()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Seven Ends -->
+      <!-- Question Eight Starts here -->
+      <div id="statEig" class="row alert alert-info">
+        <div class="col-lg-2">Question 8 :</div>
+        <div class="col-lg-8">
+          If a video contains several subtitles
+          <code>English, Urdu and Arabic</code>. Inorder to make Urdu as primary
+          subtitle, which attribute will be added in track?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+&lt;video src = 'myvideo.mp4' controls >
+        &lt;track
+            src = 'mycaption1.vtt'
+            kind = 'captions'
+            label = 'English'
+            srclang = 'en'
+        &gt;
+        &lt;track
+        src = 'mycaption2.vtt'
+        kind = 'captions'
+        label = 'Urdu'
+        srclang = 'ur'
+        <input type="text" id="fillEig" maxlength="7" size="7" />
+        &gt;
+        &lt;track
+        src = 'mycaption3.vtt'
+        kind = 'captions'
+        label = 'Arabic'
+        srclang = 'ar'
+        &gt;   
+&lt;/video&gt;
+              </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionEig()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Eight Ends -->
+    </div>
+  </body>
+</html>
