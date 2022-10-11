@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice Exercise Three</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="exercise5_js.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1
+          class="h-50 bg-dark text-light rounded"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          JavaScript Practice Exercise Five
+        </h1>
+      </div>
+      <!-- Question1 Starts -->
+      <div id="statOne" class="row alert alert-info">
+        <div class="col-lg-2">Question 1 :</div>
+        <div class="col-lg-8">
+          How will you Call or Invoke following function?
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+function  sayHello() {
+      alert("Welcome to TechTIME"); 
+}           </pre
+          >
+          <input type="text" id="fillOne" maxlength="10" size="10" />
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionOne()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question 1 Ends -->
+      <!-- Question 2 Starts -->
+      <div id="statTwo" class="row alert alert-info">
+        <div class="col-lg-2">Question 2 :</div>
+        <div class="col-lg-8">
+          Create a function named <code>schoolTime</code>.
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+<input type="text" id="fillTwo" maxlength="8" size="8" />  <input type="text" id="fillTwo1" maxlength="12" size="12" /> {
+
+      console.log("Welcome to the School on time");
+
+<input type="text" id="fillTwo2" maxlength="1" size="1" />
+
+schoolTime();
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionTwo()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Two Ends -->
+      <!-- Question Three Starts here -->
+      <div id="statThr" class="row alert alert-info">
+        <div class="col-lg-2">Question 3 :</div>
+        <div class="col-lg-8">
+          Below is the function named <code>addition</code> that takes two
+          arguments <code>num1</code> and <code>num2</code>. Function will
+          <code>return </code> sum of both numbers in variable
+          <code>result</code>
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+function addition( <input type="text" id="fillThr" maxlength="4" size="4" /> , <input type="text" id="fillThr1" maxlength="4" size="4" /> ) {
+      result = num1 + num2
+      <input type="text" id="fillThr2" maxlength="6" size="6" /> result ;
+}
+
+myValue = addition ( 9  , 22 )
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionThr()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Three Ends -->
+      <!-- Question Four Starts here -->
+      <div id="statFou" class="row alert alert-info">
+        <div class="col-lg-2">Question 4 :</div>
+        <div class="col-lg-8">
+          Below is the function named <code>subtraction</code> that takes two
+          arguments <code>num1</code> and <code>num2</code>.
+          <code>num2</code> is set to default value of 9. The function
+          <code>return </code> sum of <code>num1 and 9</code> numbers in
+          variable
+          <code>result</code>
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+function addition( num1 , <input type="text" id="fillFou" maxlength="6" size="6" /> ) {
+  result = num1 + num2
+  <input type="text" id="fillFour" maxlength="6" size="6" /> result ;
+}
+      
+myValue = addition ( 128 )
+console.log ( <input type="text" id="fillFour1" maxlength="7" size="7" />  );
+          </pre>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFou()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Four Ends -->
+      <!-- Question Five Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 5 :</div>
+        <div class="col-lg-8">
+          Create a function named <code>changeColor</code> that will change the
+          color an element with id <code>glow</code> to <code>blue</code> and
+          background color to <code>orange</code>
+          <hr />
+          <pre
+            class="border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+function  changeColor ( arg1 , agr2  ) {
+
+      element = document.querySelector(' <input type="text" id="fillFiv" maxlength="5" size="5" /> ');
+      element.style.color             = arg1
+      element.style.<input type="text" id="fillFive" maxlength="15" size="15" /> = arg2 
+}
+
+changeColor( 'blue' , 'orange' )
+          </pre>
+          <code>Output: </code>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-info" onclick="questionFiv()">
+            Check Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Five Ends -->
+    </div>
+  </body>
+</html>
