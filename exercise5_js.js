@@ -87,7 +87,7 @@ fillFive = document.querySelector("#fillFive");
 statFiv = document.querySelector("#statFiv");
 
 function questionFiv() {
-  if (fillFiv.value == "#grow" && fillFive.value == "backgroundColor") {
+  if (fillFiv.value == "#glow" && fillFive.value == "backgroundColor") {
     statFiv.innerText = "Correct";
     statFiv.setAttribute("class", "row alert alert-success");
   } else {
