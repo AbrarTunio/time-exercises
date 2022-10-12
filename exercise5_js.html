@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Practice Exercise Three</title>
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap.min.css"
@@ -172,6 +177,65 @@ changeColor( 'blue' , 'orange' )
         </div>
       </div>
       <!-- Question Five Ends -->
+      <!-- Question Six Starts -->
+      <div id="statFiv" class="row alert alert-info">
+        <div class="col-lg-2">Question 6 :</div>
+        <div class="col-lg-8">
+          Create two functions named <code>changeBgColor</code> and
+          <code>alterBgColor</code> Create a variable
+          <code>chooseBgColor</code> and ask user to assign the name of color to
+          the variable. This variable should be passed into
+          <code>alterBgColor</code> function to alter the provided color. For
+          example if user supplied <code>red</code> it should change the color
+          to<code>green</code> and vice versa. <code>Returned</code> value from
+          this function should be supplied to
+          <code>changeBgColor</code> function to apply this new altered color on
+          an element <code>h1</code> in HTML.
+          <hr />
+          <pre
+            class="hide border rounded bg-light p-2"
+            style="font-size: 12px; font-style: italic"
+          >
+let chooseBgColor = prompt("Enter the color for background (red/green)");
+
+// This function will just apply the provided color
+// to element
+
+function changeBgColor(color1) {
+  document.querySelector("h1").style.color = color1;
+}
+
+// This function will reverse the color
+// if user supplies red it will turn it to green
+function alterBgColor(color) {
+  if (color == "red") {
+    color = "green";
+    return color;
+  } else {
+    color = "red";
+    return color;
+  }
+}
+
+// calling the function which can reverse or alter the
+// provided color
+newBgColor = alterBgColor(chooseBgColor);
+
+// Calling the changeColor function and providing altered color to it
+changeBgColor(newBgColor);         
+          </pre>
+          <code>Output: </code>
+        </div>
+        <div class="col-lg-2">
+          <button
+            class="btn btn-info"
+            onclick="document.querySelector('.hide').style.display = 'block'"
+          >
+            Disclose Answer
+          </button>
+        </div>
+      </div>
+      <!-- Question Six Ends -->
     </div>
   </body>
 </html>
